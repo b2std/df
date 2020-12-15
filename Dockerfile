@@ -6,6 +6,4 @@ RUN apt install maven -y
 
 RUN apt install git -y
 
-USER jenkins
-
 CMD ["/bin/bash"]
