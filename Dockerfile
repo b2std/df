@@ -4,4 +4,4 @@ RUN apt update
 
 RUN apt install maven -y
 
-CMD ["mvn"]
+CMD ["mvn", "package"]
