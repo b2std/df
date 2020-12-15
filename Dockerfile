@@ -4,4 +4,6 @@ RUN apt update
 
 RUN apt install maven -y
 
-CMD ["mvn", "package"]
+RUN apt install git -y
+
+CMD ["/bin/bash"]
